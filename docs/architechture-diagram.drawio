@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" modified="2024-06-05T02:54:44.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="N32FpM7UIRMbfC32zS2O" version="24.4.13" type="device">
+  <diagram name="Page-1" id="mL1xcM2yCYXCH_ZznSUh">
+    <mxGraphModel dx="840" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KMqX7474uvCsu3AUYSi4-2" value="CS2 Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="360" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-4" value="CounterStrikeSharp" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="KMqX7474uvCsu3AUYSi4-2">
+          <mxGeometry x="150" y="50" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-5" value="Custom Server Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMqX7474uvCsu3AUYSi4-4">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMqX7474uvCsu3AUYSi4-5" target="KMqX7474uvCsu3AUYSi4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-9" value="Docker" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="110" width="715" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-8" value="CS2 Server Plugin Spring Boot API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KMqX7474uvCsu3AUYSi4-9">
+          <mxGeometry x="525" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMqX7474uvCsu3AUYSi4-3" value="Metamod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMqX7474uvCsu3AUYSi4-9">
+          <mxGeometry x="65" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
